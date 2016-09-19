@@ -1,0 +1,266 @@
+/*公共模块/重复性类*/
+
+/* common */
+
+html,body{
+	overflow-x: hidden;
+}
+body{
+	width:100%;
+	height: 100%;
+	color: #333;
+	font-size: 12px;
+	background: #f9f9f9;
+	font-family: "微软雅黑";
+}
+.w1100{
+	margin: 0 auto;
+	width: 1100px;
+}
+a{
+	cursor: pointer;
+	color: #666;
+}
+a:hover{
+	color: #fa4b9b;
+}
+em,i{
+	font-style: normal;
+}
+
+/* header */
+
+.user-bg{
+	width: 100%;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+}
+.header{
+	background-color: #fff;
+}
+.header-user{	
+	line-height: 30px;
+}
+.user-welcome{
+	float: right;
+}
+.user-moblie,.user-welcome span,.user-welcome a{
+	margin: 0 10px;
+}
+.mia-moblie,.mia-logo,.mia-search,.mia-cart{
+	float: left;
+}
+.header-mia{
+	padding: 20px 0 25px;
+}
+.mia-logo{
+	margin: 10px 0 0;
+}
+.mia-logo img{
+	width: 230px;
+}
+.mia-search{
+	margin: 28px 0 0;
+	padding-left: 150px;
+}
+.mia-search .hot{
+	margin-top: 6px;
+    width: 385px;
+    height: 18px;
+    overflow: hidden;
+}
+.form-search{
+	width: 383px;
+	height: 18px;
+    line-height: 18px;
+    text-indent: 10px;
+	border: 2px solid #fa4b9b;
+	margin-right: -2px;
+    padding: 6px 0;
+}
+.form-button{
+	width: 90px;
+    height: 35px;
+    border: none;
+	background-color: #fa4b9b;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    cursor: pointer;	
+}
+.mia-cart{
+	margin: 28px 30px 0 28px;
+}
+.cart-icon{
+	background-color: #ff3893;
+}
+.cart-item{		
+	display: block;
+	border: 1px solid #e5e5e5;
+    padding: 0 0 0 35px;
+    width: 107px;
+    height: 32px;
+	line-height: 32px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #4f4f4f;
+}
+.header-nav{
+	width: 100%;
+	background-color: #ff3893;
+}
+.header-nav ul{
+	padding-left: 230px;
+    height: 46px;
+    line-height: 46px;
+}
+.header-nav li{
+	float: left;
+	font-size: 16px;
+}
+.header-nav a{
+	display: block;
+    padding: 0 30px;
+    color: #fff;
+}
+
+
+/* footer */
+
+/* footer-service */
+.footer{
+	font-size: 12px;
+	font-family: Tahoma,Arial,"Hiragino Sans GB","微软雅黑",sans-serif;
+	clear: both;
+}
+.footer-service{
+	text-align: center;
+	border-top: 1px solid #dfdfdf;
+	background: #fff;
+}
+.footer-service .w1100{
+	padding: 20px 0 15px;
+	font-size: 0;
+	border-bottom: 1px solid #f2f2f0;
+}
+.footer-service a{
+	display: inline-block;
+	vertical-align: middle;
+	width: 167px;
+	font-size: 12px;
+	color: #999;
+	line-height: 1.4;
+}
+.footer-service .icon{
+	display: block;
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	background: url(img/footer-intro.png) center no-repeat;
+}
+.footer-service .icon1{
+	background-position: 0px;
+}
+.footer-service .icon2{
+	background-position: -60px;
+}
+.footer-service .icon3{
+	background-position: -120px;
+}
+.footer-service .icon4{
+	background-position: -180px;
+}
+.footer-service .icon5{
+	background-position: -240px;
+}
+.footer-service .icon6{
+	background-position: -300px;
+}
+.footer .footer-service b{
+	display: block;
+	margin-top: 5px;
+	font-size: 15px;
+	color: #333;
+}
+
+/* footer-help left */
+.footer .footer-help{
+	padding-top: 18px;
+	background-color: #fff;
+	border-bottom: 1px solid #f2f2f0;
+}
+.footer .w1000{
+	margin: 0 auto;
+	width: 1000px;
+}
+.footer-help .list{
+	float: left;
+	margin-left: 15px;	
+}
+.footer-help .list ul{
+	float: left;
+	width: 132px;
+}
+.footer-help .strong{
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.footer-help .list ul li{
+	line-height: 26px;
+	height: 26px;
+	padding-left: 32px;
+}
+
+/* footer-help right */
+.footer-help .attention{
+	float: right;
+	border-left: 1px solid #f2f2f0;
+}
+.footer-help .scan{
+	float: left;
+	width: 186px;
+	height: 168px;
+	text-align: left;
+
+}
+.footer-help .scan li{
+	padding-left: 18px;
+	padding-bottom: 8px;
+}
+.footer-help .scan img{
+	float:left;
+}
+.footer-help .scan .right{
+	float: left;
+	display: inline;
+	width: 76px;
+	margin-left: 7px;
+}
+
+/* footer-link */
+.footer .footer-link{
+	padding-top: 15px;
+	line-height: 22px;
+	color: #979797;
+	text-align: center;
+	background-color: #fff;
+}
+.footer-link p{
+	padding-bottom: 10px;
+}
+.footer-link a{
+	padding: 0 10px;
+	border: 0;
+}
+
+
+
+
+/* 清除浮动 */
+.clearfix:after{content:'.';clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+.clearfix{zoom:1;}
