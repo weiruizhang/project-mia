@@ -1,0 +1,12 @@
+/* 商品详情页样式 */
+
+/* inwrap */
+
+/* inwrap-text */
+.inwrap .inwrap-text{
+	height: 50px;
+	line-height: 50px;
+	font-family: "宋体";
+}
+
+/* inwrap-content */

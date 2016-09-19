@@ -29,7 +29,10 @@ body{
 }
 
 /* content choosebox */
-.choosebox{
+.content{
+	margin: 0 auto 25px;
+}
+.content .choosebox{
 	margin: 15px 0 20px;
 	background-color: #fff;
 	border: 1px solid #f2f2f2;
@@ -116,7 +119,61 @@ body{
 	font-size: 22px;
 }
 
-
+.content-kind .kind-list{
+	border-top: 2px solid #c1c1c1;
+	border-left: 1px solid #e8e8e8;
+	margin-right: -1px;
+}
+.content-kind .show,.goods{
+	position: relative;
+	margin-left: -1px;
+	border: 1px solid #e8e8e8;
+	border-width: 0 1px 1px;
+	float: left;
+	width: 249px;
+	height: 364px;
+	background-color: #fff;
+}
+.content-kind .goods-pic{
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	width: 100%;
+	height: 46px;
+	font-size: 0;
+}
+.content-kind .goods-show{
+	padding: 6px 0 30px;
+	width: 248px;
+	height: 228px;
+}
+.content-kind .goods-show img{
+	width: 100%;
+	height: 100%;
+}
+.content-kind .goods-price{
+	margin: 10px 0 5px 20px;
+	color: #ff69b4;
+}
+.content-kind .goods-price .p1{
+	font-size: 16px;
+	font-family: Verdana,Geneva,sans-serif;
+}
+.content-kind .goods-price .p2{
+	font-size: 24px;
+}
+.content-kind .goods-price .p3{
+	margin-left: 8px;
+	color: #b3b3b3;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.content-kind .goods-text{
+	margin: 0 20px;
+	line-height: 20px;
+	height: 40px;
+	overflow: hidden;
+}
 
 
 
