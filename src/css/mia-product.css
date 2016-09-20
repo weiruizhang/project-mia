@@ -10,3 +10,160 @@
 }
 
 /* inwrap-content */
+.inwrap .inwrap-content{
+	background-color: #fff;
+}
+
+/* inwrap-content detail */
+.inwrap .detail{
+	padding: 20px;
+}
+.detail .left{
+	float: left;
+	width: 402px;
+}
+.detail .left .big{
+	height: 402px;
+	border: 1px solid #f7f7f7;
+}
+.detail .left .big img{
+	width: 400px;
+	height: 400px;
+}
+.detail .left .small{
+	height: 100px;
+	padding-top: 8px;
+}
+.detail .left .small img{
+	float: left;	
+	width: 68px;
+	height: 68px;
+	padding: 2px;
+	margin-right: 8px;
+	border: 1px solid #f4f4f4;
+}
+.detail .right{
+	float: left;
+	width: 600px;
+	padding-left: 50px;
+}
+.detail .right .title{
+	margin: 10px 0;
+	font-size: 18px;
+}
+.detail .right .titleintro{
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+	border-bottom: none;
+}
+.detail .right .pricebox{
+	padding: 10px 15px 15px;
+	background: #fff9fd;
+}
+.detail .right .tit{
+	margin-right: 30px;
+	font-size: 16px;
+	color: #666;
+}
+.detail .right .new{
+	font-size: 22px;
+	color: #f43499;	
+}
+.detail .right .new i{
+	font-size: 20px;
+}
+.detail .right .old{
+	padding: 0 20px 0 10px;
+	text-decoration: line-through;
+	color: gray;
+}
+.detail .right dt{
+	float: left;
+	width: auto;
+	padding-left: 15px;
+	margin-right: 30px;
+	font-size: 16px;
+	color: gray;
+	text-align: left;
+	line-height: 25px;
+}
+.detail .right .color{
+	padding-top: 12px;
+	overflow: hidden;
+}
+.detail .right .color dd{
+	float: left;
+	width: 340px;
+	height: 47px;
+	margin: 0 15px 9px 0;
+}
+.detail .right .color a{
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border: 1px solid #b5b5b5;
+}
+.detail .right .color img{
+	width: 100%;
+}
+.detail .right .size{
+	display: block;
+	overflow: hidden;
+	padding: 3px 0 15px;
+}
+.detail .right .size dd{
+	display: block;
+	vertical-align: middle;
+	width: 350px;
+	float: left;
+	margin-left: -3px;
+}
+.detail .right .size a{
+	float: left;
+	height: 36px;
+	margin: 2px 3px;
+	border: 1px solid #b5b5b5;
+	line-height: 36px;
+	text-align: center;
+}
+.detail .right .size span{
+	padding: 2px;
+	height: 30px;
+	line-height: 30px;
+	font-family: Verdana,Geneva,sans-serif;
+}
+.detail .right .number{
+	padding: 16px 1px;
+	height: 30px;
+	margin: -1px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
