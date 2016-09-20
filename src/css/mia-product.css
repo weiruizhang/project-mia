@@ -1,6 +1,10 @@
 /* 商品详情页样式 */
 
 /* common */
+a img{
+	border: none;
+}
+
 
 /* inwrap */
 
@@ -292,21 +296,102 @@
 	line-height: 18px;
 }
 
+/* inwrap-content introduction */
+.inwrap-content .introduction{
+	padding-top: 20px;
+}
 
+/* inwrap-content introduction left */
+.introduction .left{
+	float: left;
+	width: 220px;
+	margin-right: 18px;
+	border: 1px solid #ebebeb;
+	background: #fff;
+}
+.introduction .left .pubtitle{	
+	padding: 5px 0 0 18px;
+	height: 35px;
+	line-height: 25px;
+	font-size: 20px;
+	color: #fc62af;
+	border-bottom: 1px solid #ebebeb;
+}
+.introduction .left .pubcell{
+	padding: 10px 10px 0;
+}
+.introduction .left .block{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #dadada;
+	line-height: 20px;
+	overflow: hidden;
+}
+.introduction .left .block img{
+	float: left;
+}
+.introduction .left .block p{
+	padding-bottom: 5px;
+	line-height: 16px;
+}
+.introduction .left .block span{
+	color: #f450a2;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* inwrap-content introduction right */
+.introduction .right{
+	float: left;
+	width: 860px;
+	background-color: #fff;
+}
+.introduction .right .introlist{
+	line-height: 45px;
+	height: 45px;
+	margin-bottom: 20px;
+	border-radius: 2px 2px 0 0;
+	background: #ff3b93;
+}
+.introduction .right .list-title li{
+	float: left;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+.introduction .right .list-title .current{
+	background: #ec0871;
+}
+.introduction .right .introcontent{
+	border: 1px solid #ebebeb;
+}
+.introduction .right .fill{
+	display: block;
+	padding: 10px 10px 12px;
+}
+.introduction .right .introcontent ul{
+	height: 100px;
+	overflow: hidden;
+}
+.introduction .right .introcontent li{
+	float: left;
+	width: 350px;
+	height: 18px;
+	padding: 6px 5px 6px 0;
+	color: #5b5b5b;
+	line-height: 20px;
+	overflow: hidden;
+}
+.introduction .right .introcontent b{
+	float: left;
+	width: 80px;
+	text-align: left;
+	padding-right: 5px;
+}
+.introduction .right .readmore a{
+	color: #7ebcf2;
+	font-weight: bold;
+}
+.introduction .right .datatitle{
+	height: 40px;
+	margin-bottom: 10px;
+}
