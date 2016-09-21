@@ -2,8 +2,93 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>蜜芽-注册页面</title>
+		<!--CSS样式-->
+		<link rel = "stylesheet" type = "text/css" href = "../css/reset.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../css/common.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../css/mia-register.css"/>
+		
+		<!--JS JQ 插件代码链接-->
+		<script src="../js/jquery-1.12.0.js"></script>
+		
 	</head>
-	<body>
+	<body class="change">
+		
+		<div id="wrap" class="wrap">
+			
+			<div id="content" class="content w965">
+				<div class="logo"><a class="logolink" href="" title="返回蜜芽首页"></a></div>
+				
+				<div class="logintext">
+					<div class="logintit">
+						<span class="leftspan">注册蜜芽</span>
+						<span class="rightspan">
+							<i>已有蜜芽账号？</i>
+							<a href="">登录</a>
+						</span>
+					</div>
+					<form action="" class="loginform" method="post">
+						<div class="inputGroup">
+							<div class="inner">
+								<div class="mobile-icon"></div>
+								<input id="login-username" class="input" placeholder="手机号码" name="username" type="text" />
+							</div>
+							<p style="display: none;"></p>
+						</div>
+						<div class="inputGroup" style="height: 56px";>
+							<div class="checkinput clearfix" style="width:300px;">
+								<div class="inner">
+									<input id="autocode" class="input" placeholder="输入验证码" type="text" />
+								</div>
+								<img src="img/member-authcode.png" alt="" />
+								<a href="">看不清</a>
+							</div>
+							<p></p>
+						</div>
+						<div class="inputGroup">
+							<div class="inner margin10">
+								<div class="phonecode">
+									<input id="phonecode" class="input" placeholder="短信验证码" type="text" />
+								</div>
+							</div>
+								<a class="phonecodeimg" href="">获取短信验证码</a>
+							<p></p>
+						</div>
+						<div class="inputGroup">
+							<div class="inner">
+								<div class="pass-icon"></div>
+								<input id="login-password" class="input" placeholder="密码" name="password" type="text" />
+							</div>
+							<p></p>
+						</div>
+						<div class="inputGroup">
+							<div class="inner">
+								<div class="pass-icon"></div>
+								<input id="confirm-password" class="input" placeholder="确认密码" name="confirm-password" type="text" />
+							</div>
+							<p></p>
+						</div>
+						<div class="inputGroup" style="height:30px;">
+							<div class="isread">
+								<input id="isagree" checked="" name="isagree" type="checkbox" />
+								<label for=isagree"">我已阅读并接受</label>
+								<a href="" target="_blank" title="蜜芽服务条款">《蜜芽服务条款》</a>
+							</div>
+							<p></p>
+						</div>
+						<p class="registerBtn">
+							<a href="" id="register-submit">注册</a>
+						</p>
+					</form>
+				</div>
+			</div>
+
+
+			<div class="member-footer">
+				Copyright ©2016 北京花旺在线商贸有限公司 Miyabaobei.com 保留一切权利。客服热线： 400-789-2000。京ICP证140430号 京ICP备14006215号
+			</div>
+
+		</div>
+		
 	</body>
 </html>

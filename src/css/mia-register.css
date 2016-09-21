@@ -1,0 +1,218 @@
+/* 蜜芽注册页面样式 */
+
+/* common */
+.w965{
+	width: 965px;
+	margin: 0 auto;
+}
+.change{
+	background-color: #fff;
+}
+
+/* content */
+.content{
+	position: relative;
+	height: 502px;
+	padding-top: 75px;
+	margin-top: 20px;
+	background: url(img/member-bg.jpg) left 112px no-repeat;
+}
+
+/* logo */
+.logo a{
+	background: url(img/logo.png) no-repeat;
+	width: 210px;
+	height: 100px;
+	display: block;
+	overflow: hidden;
+}
+
+/* logintext */
+.logintext{
+	position: absolute;
+	left: 610px;
+	top: 92px;
+	width: 304px;
+	box-shadow: 0 0 4px rgba(0,0,0,.075);
+	padding: 0 20px 20px;
+}
+
+/* .logintext .logintit */
+.logintit{
+	color: #f450a2;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 13px;
+}
+.logintit .leftspan{
+	float: left;
+	font-size: 20px;
+}
+.logintit .rightspan{
+	float: right;
+}
+
+/* .logintext .loginform */
+.loginform .inputGroup{
+	position: relative;
+	height: 56px;
+}
+.loginform .inner{	
+	float: left;
+	position: relative;
+	border: 1px solid #cfcfcf;
+	background: #fff;
+	box-shadow: 0 0 2px 1px rgba(207,207,207,.4)
+}
+.mobile-icon,.pass-icon{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 6px;
+	z-index: 1;
+	height: 22px;
+	width: 38px;
+	background: url(img/resister-sign.png) no-repeat;
+}
+.mobile-icon{
+	background-position: -37px -10px;
+}
+.inputGroup .input{
+	position: relative;
+	top: 0;
+	width: 256px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 8px 8px 8px 38px;
+	background: rgba(0,0,0,0);
+	border: 0;
+	color: #000;
+	font-size: 14px;
+	left: 0;
+	line-height: 1.5;
+}
+.checkinput{
+	float: left;
+}
+.checkinput .inner{
+	display: inline-block;
+	height: 35px;
+	margin-right: 12px;
+	line-height: 35px;
+}
+.checkinput .input{
+	float: left;
+	width: 90px;
+	padding: 8px;
+}
+.checkinput .input img{
+	height: 35px;
+	width: 90px;
+	line-height: 35px;	
+}
+.margin10{
+	margin-right: 10px;	
+}
+.phonecode{
+	float: left;
+}
+.phonecode .input{
+	width: 130px;
+	padding: 8px;
+}
+.phonecodeimg{
+	display: inline-block;
+	width: 128px;
+	height: 37px;
+	padding: 0 8px;
+	line-height: 37px;
+	font-weight: 700;
+	color: #666;
+	text-align: center;
+	background: linear-gradient(to bottom,#fcfcfc,#f2f2f2);
+	border: 1px solid #d9d9d9;
+	text-decoration: none;
+}
+.pass-icon{
+	background-position: -37px -50px;
+}
+.inputGroup .isread{
+	margin-top: 15px;
+	color: #666;
+	font-size: 14px;
+}
+.inputGroup .isread input{
+	vertical-align: -2px;
+}
+.inputGroup .isread a{
+	color: #f450a2;
+}
+
+/* .loginform .registerBtn */
+.loginform .registerBtn{
+	margin-top: 15px;
+}
+.registerBtn #register-submit{
+	background-color: #F450A2;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 4px 24px 7px;	
+	width: 85%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+
+/* register-footer */
+.member-footer{
+	text-align: center;
+	padding: 30px;
+	line-height: 22px;
+	color: #ccc;
+}
+
+
+/* 蜜芽登录页面补充样式 */
+
+.loginform .inputcheck{
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.inputcheck .auto-check{
+	float: left;
+}
+.auto-enter{
+	vertical-align: middle;
+}
+.inputcheck a{
+	float: right;
+}
+
+.logintext .weixin-enter{
+	padding-top: 15px;
+}
+.logintext .weixin-enter p{
+	float: left;
+	padding-top: 6px;
+	color: #066666;
+}
+.logintext .weixin-enter .wx-enter{
+	border-radius: 100%;
+	float: left;
+	display: block;
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+	margin-right: 8px;
+	background: url(img/login-wx.jpg) no-repeat;
+}
+
+
+
+
+
