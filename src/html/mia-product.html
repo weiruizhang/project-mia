@@ -3,12 +3,26 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>蜜芽-列表页</title>
+		<!--CSS样式-->
 		<link rel = "stylesheet" type = "text/css" href = "../css/reset.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/common.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/mia-product.css"/>
+		<!--JS JQ 插件代码链接-->
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src='../js/jquery.elevateZoom.js'></script>
+		
+			
+		<!--当前网页JS代码-->
+		<script type="text/javascript">
+			$(function(){
+				//使用放大镜效果插件
+				$('#zoom-01').elevateZoom({});
+			})			
+		</script>
+		
 	</head>
 	<body>
-		
+	<!--<img id="zoom_01" src='images/small/image1.png' data-zoom-image="images/large/image1.jpg"/>-->	
 <div id = "wrap" class="wrap">
 		
 	<div id = "header" class="header clearfix">
@@ -94,7 +108,7 @@
 				<div class="detail clearfix">
 					<div class="left">
 						<div class="big">
-							<img src="img/product-big1.jpg">
+							<img id="zoom-01" src="img/product-big1.jpg"  data-zoom-image="img/large/product-putbig1.jpg">
 						</div>
 						<div class="small">
 							<img src="img/product-big1.jpg" />
