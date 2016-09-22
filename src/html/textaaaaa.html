@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>这是测试页面</title>
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/mia-list.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				// 全局配置			
+				$.ajaxSetup({
+					type:"get",
+					url:"../data/goodslist.json",
+					dataType:'json',
+					success:function(good){
+						
+						//遍历所有内容
+						$.each(good,function(idx,item){
+							console.log(item.dollar)
+							console.log(item.imgurl)
+							var $div = $('<div/>').addClass('goods');
+							//创建div.goods-show
+							$('<div/>').addClass('goods-show')
+							.append("<a><img src='"+item.imgurl+"'/></a>").appendTo($div);
+							//创建div.goods-price
+							$('<div/>').addClass('goods-price')
+							.append("<span class='p1'>"+item.dollar+"</span>")
+							.append("<span class='p2'>"+item.newprice+"</span>")
+							.append("<span class='p3'>"+item.oldprice+"</span>")
+							.appendTo($div);
+							//创建div.goods-text
+							$('<div/>').addClass('goods-text')
+							.append("<a>"+item.goodtext+"</a>").appendTo($div);
+							//把最外层div加入body
+							$div.appendTo($('body'));							
+						});						
+					}
+				});
+				
+				
+				
+			});
+		</script>
+	</head>
+	<body>
+		<!--<div class="goods">
+					<div class="goods-show">
+						<a href=""><img src="img/list-nfkind1.jpg" alt="" /></a>
+					</div>
+					<div class="goods-price">
+						<span class="p1">¥</span>
+						<span class="p2">536.00</span>
+						<span class="p3">¥1032.00</span>
+					</div>
+					<div class="goods-text">
+						<a href="">德国原装 Aptamil 婴儿配方奶粉pre段0~6M 800g*4罐</a>
+					</div>
+		</div>-->
+		
+		
+		
+	</div>
+	</body>
+</html>
