@@ -16,13 +16,44 @@ h1 span{
 
 /* banner */
 .banner{
-	background-image: url("img/banner1.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
+/*	background: url(img/banner1.jpg) no-repeat center;*/
+	position: relative;
     height: 480px;
     width: 100%;
     text-align: center;
 }
+.banner .runbox{
+	position: absolute;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -550px;
+	width: 1100px;
+	text-align: right;
+	z-index: 10;
+}
+.banner .runboxNum{
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	padding: 4px 9px;
+	z-index: 6;
+	line-height: 1;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,.2);
+}
+.runboxNum i{
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin: 0 3px;
+	width: 10px;
+	height: 10px;
+	font-size: 0;
+	line-height: 0;
+	cursor: pointer;
+	background-color: #fff;
+}
+
 
 /* content */
 .content{	
@@ -175,3 +206,49 @@ h1 span{
 .content-sale .top-text .new em{
 	font-size: 18px;
 }
+
+
+
+
+/* 轮播图（banner）使用插件的样式 */
+.middle {
+        position: relative;
+        width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .bigpic {
+        height: 320px;
+    }
+    
+    .bigpic li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+		z-index: 1;
+		height: 480px;
+    }  
+    .prev,
+    .next {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        margin-top: -40px;
+        padding: 10px;
+        background: rgba(0, 0, 0, .2);
+        font-size: 30px;
+        color: #ccc;
+        text-decoration: none;
+    }
+    
+    .next {
+        left: auto;
+        right: 10px;
+    }
+    
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, .5);
+    }
+
