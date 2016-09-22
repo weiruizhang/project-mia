@@ -33,12 +33,13 @@
             //设置默认值
             var settings = {
                     url: null,
-                    boxWid: 1000,
+                    boxWid: 1920,
                     boxHei: 500,
                     times: 2000
                 };
                 //合并参数
             var o = $.extend(settings, opt);
+            console.log(o);
             //缓存容器对象
             var $box = this;
             var $oUl = $('<ul></ul>');

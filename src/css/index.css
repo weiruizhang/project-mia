@@ -16,11 +16,18 @@ h1 span{
 
 /* banner */
 .banner{
-/*	background: url(img/banner1.jpg) no-repeat center;*/
+	background: url(img/banner1.jpg) no-repeat center;
+	opacity: 1;
 	position: relative;
     height: 480px;
     width: 100%;
     text-align: center;
+}
+.middle{
+	display: block;
+	margin: 0 auto;
+	width: 1920px;
+	height: 480px;
 }
 .banner .runbox{
 	position: absolute;
@@ -211,7 +218,7 @@ h1 span{
 
 
 /* 轮播图（banner）使用插件的样式 */
-.middle {
+/*.middle {
         position: relative;
         width: 1920px;
         margin: 0 auto;
@@ -250,5 +257,5 @@ h1 span{
     .prev:hover,
     .next:hover {
         background-color: rgba(0, 0, 0, .5);
-    }
+    }*/
 
