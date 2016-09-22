@@ -5,60 +5,119 @@
 		<title>这是测试页面</title>
 		<script src="../js/jquery-1.12.0.js"></script>
 		<script src="../js/mia-list.js"></script>
-		<script type="text/javascript">
-			$(function(){
-				// 全局配置			
-				$.ajaxSetup({
-					type:"get",
-					url:"../data/goodslist.json",
-					dataType:'json',
-					success:function(good){
-						
-						//遍历所有内容
-						$.each(good,function(idx,item){
-							console.log(item.dollar)
-							console.log(item.imgurl)
-							var $div = $('<div/>').addClass('goods');
-							//创建div.goods-show
-							$('<div/>').addClass('goods-show')
-							.append("<a><img src='"+item.imgurl+"'/></a>").appendTo($div);
-							//创建div.goods-price
-							$('<div/>').addClass('goods-price')
-							.append("<span class='p1'>"+item.dollar+"</span>")
-							.append("<span class='p2'>"+item.newprice+"</span>")
-							.append("<span class='p3'>"+item.oldprice+"</span>")
-							.appendTo($div);
-							//创建div.goods-text
-							$('<div/>').addClass('goods-text')
-							.append("<a>"+item.goodtext+"</a>").appendTo($div);
-							//把最外层div加入body
-							$div.appendTo($('body'));							
-						});						
-					}
-				});
-				
-				
-				
-			});
-		</script>
+
 	</head>
 	<body>
-		<!--<div class="goods">
-					<div class="goods-show">
-						<a href=""><img src="img/list-nfkind1.jpg" alt="" /></a>
-					</div>
-					<div class="goods-price">
-						<span class="p1">¥</span>
-						<span class="p2">536.00</span>
-						<span class="p3">¥1032.00</span>
-					</div>
-					<div class="goods-text">
-						<a href="">德国原装 Aptamil 婴儿配方奶粉pre段0~6M 800g*4罐</a>
-					</div>
-		</div>-->
-		
-		
-		
+<div class="c_wrap w1004" id="shopping_cart">
+	<div class="c_title yahei">
+		<span>我的购物车</span><!--  <span class="nums">(<span><em>30</em>/99</span>)</span> -->
 	</div>
+	<div class="c_menu">
+		<div class="ci ci0 ">
+			<div class='inputwarp nocheck'>
+				<input class="mckall" type="checkbox" value="0"  data-checktype='0'>
+			</div><label>全选</label>
+		</div>
+		<div class="ci ci1">商品</div>
+		<div class="ci ci2">规格</div>
+		<div class="ci ci3">单价</div>
+		<div class="ci ci4">数量</div>
+		<div class="ci ci5">小计</div>
+		<div class="ci ci6">操作</div>
+	</div>
+
+<div class="c_list store_631" >
+	<div class="cl_con">
+	    <div class="cl_tit cl_">
+			<div class="inputwarp nocheck"><input class="mckall" type="checkbox" value="0" data-checktype='1'></div>
+			
+			<!-- 20151021修改 lz begin -->
+			<div class="cl_wordsNew"><!-- <span>0</span>件商品</span> --><span>新华雅博图书专营店</span>                             </div>
+			<!-- 20151021修改 lz end -->
+		</div>
+	    <div class="cl_promotion promotion_">
+	        <div class="cl_items  ">
+	        	<div  class="gooditem gooditems_147454886516077  clearfix " >
+	                                            
+	            <div class="it_mck nocheck"><input gf="0" name="productcheck" class="mck" data-checktype='3' type="checkbox" checked cart-sku="1165196" value="147454886516077"></div>
+
+	        	<div class="it_img">
+	        		<a href="http://www.mia.com/item-1165196.html" title="宝宝蛋 袋鼠妈妈婴儿第一套视觉翻翻书 全4册" target="_blank"><img src="http://img03.miyabaobei.com/d1/p2/item/11/1165/1165196_normal_1.jpg" alt="宝宝蛋 袋鼠妈妈婴儿第一套视觉翻翻书 全4册" ></a>
+	        	</div>
+	    <!-- 20160113增加活动区域 end lz -->
+	
+	        <div class="it_des">
+	            
+	                <p class="goodname N_h">
+	                    <a href="http://www.mia.com/item-1165196.html" title="宝宝蛋 袋鼠妈妈婴儿第一套视觉翻翻书 全4册" target="_blank">
+	                        宝宝蛋 袋鼠妈妈婴儿第一套视觉翻翻书 全4册                                                    </a>
+	                </p>
+	                                                                <p class="goodno">
+	                    商品编号：1165196</p>
+	                                                                
+	        </div>
+	    <div class="it_size">156*176mm 24开</div>
+	    <div class="it_price"><p class="goodsp">14.00</p><p class="goodmp">21.60</p></div>
+	    <div class="it_num">
+	
+	 
+	        <div class="dp_bt">
+	                                                       <span class="dpcom dp_jian disabled" data-fm="cart_home" id="cart_deduct"></span>
+	              <input autocomplete="off" name="count" type="text" class="dp_num" maxlength="2" value="1" rowid="1165196" warehouse_id="1151" readonly/>
+	              <span class="dpcom dp_jia" id="cart_add" data-fm="cart_home"  data-max=""></span> 
+	                                              </div>
+	    
+	     
+	    </div>
+	    <div class="it_total subTotal">
+	    <span class="item_fee">
+	    &yen;14 
+	    </span>
+	     <br/><span class="tax"></span></div>
+	    
+	                                        <div class="it_operate"><p class="sc"><a href="javascript:;" class="delete">删除</a></p><p class="xgyh">
+	                                                  <!--参加的活动-->
+	           <div style="display: none;" class="hidden_promotion_list_147454886516077">
+	                                                       </div> 
+	
+	        </p>
+	    </div>
+	                                         <div class='line'></div>
+				</div>
+	
+	                        
+	<!--end loop-->
+	 
+	
+	
+	
+			</div>
+		</div>
+    </div>
+</div>
+
+<div class="c_countn cashier_part" id="cashier_part">
+<div class="funcs">
+<div class='inputwarp nocheck'><input class="mckall" type="checkbox" value="0" id="mckall" data-checktype='0'></div><label>全选</label>
+<a href="javascript:;" id="removeAll" class="removeAll">删除选择商品</a>
+ <a href="javascript:;"  class="removeFail">清除无效商品</a>
+<a href="javascript:;" id="batchAddMine" class="batchAddMine">移入收藏夹</a>
+  </div>
+  <div class="newCart">
+<div  class="ze"> 
+<span>已选择商品 <label class="newCart_select_quantity">1</label> 件</span> <span>合计（不含运费和进口税）： <label class="newCart_settle_amount">￥14</label></span>
+</div>
+<div class="yh">
+  <span class="bracket" style="display: none;"></span>
+  <span class="thrift_price" style="display:none;">已减：￥</span>
+  <span class="dot" style="display: none;">，</span>
+  <span class="taxes_price" style="display:none;">：￥</span>
+  <span class="bracket" style="display: none;"></span>
+</div>
+  </div>
+  <a class="newCart_jies btnJieSuan ">去结算</a>
+  
+</div>
+</div>
 	</body>
 </html>

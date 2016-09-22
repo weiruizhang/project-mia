@@ -1,9 +1,188 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
+		<meta charset="utf-8" />
+		<title>蜜芽-购物车页</title
+		<!--引入CSS样式-->
+		<link rel = "stylesheet" type = "text/css" href = "../css/reset.css"/>
+		<link rel = "stylesheet" type = "text/css" href = "../css/common.css"/>
+		<!--引入JS JQ代码块-->
+		<script src="../js/jquery-1.12.0.js"></script>
+		
+		<!--当前页面使用样式-->
+		<style type="text/css">
+			
+			.right{
+				float: right;
+			}
+			.right ul{
+				background: url(../css/img/cart-stepbg.png) no-repeat;
+				width: 435px;
+				height: 42px;
+				float: right;
+				margin-top: 30px;
+				line-height: 42px;
+			}
+			.right li{
+				float: left;
+				width: 144px;
+				text-align: center;
+			}
+			
+		</style>
 	</head>
 	<body>
+		
+<div id = "wrap" class="wrap">
+		
+	<div id = "header" class="header clearfix">
+		<div class="user-bg clearfix">
+		<div class="header-user w1100">
+			<a href="#" target="_blank" title="手机蜜芽" class="user-moblie"><i class="user-icon">图</i>手机蜜芽</a>
+			<div class = "user-welcome">
+				<span class="">你好，欢迎来到蜜芽！</span><a href="#" title="点击登录" rel="nofollow">登录</a><em>|</em><a href="#" title="点击注册" rel="nofollow">免费注册</a><a href="#" target="_blank">帮助中心</a>
+			</div>
+		</div>
+		</div>
+		<div class = "header-mia w1100 clearfix">
+			<a class="mia-logo" href="http://www.mia.com/">
+				<img src="img/logo.jpg" alt="蜜芽网">
+			</a>
+			<div class="right">
+				<ul>
+					<li>1.我的购物车</li>
+					<li>2.填写核对订单信息</li>
+					<li>3.成功提交订单</li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+	
+	
+
+	<div id = "footer" class="footer">
+		
+		<div class="footer-service">
+			<div class="w1100">
+				<a target="_blank">
+					<i class="icon icon1"></i>
+					<b>可信赖</b>
+					进口母婴特卖
+				</a>
+				<a target="_blank">
+					<i class="icon icon2"></i>
+					<b>无忧</b>
+					正品保证
+				</a>
+				<a target="_blank">
+					<i class="icon icon3"></i>
+					<b>14天</b>
+					无理由退货
+				</a>
+				<a target="_blank">
+					<i class="icon icon4"></i>
+					<b>恒温仓</b>
+					完美的货物仓储
+				</a>
+				<a target="_blank">
+					<i class="icon icon5"></i>
+					<b>24小时</b>
+					快速发货
+				</a>
+				<a target="_blank">
+					<i class="icon icon6"></i>
+					<b>100万</b>
+					妈妈口碑信赖
+				</a>
+			</div>
+		</div>	
+		
+		<div class="footer-help">
+			<div class="w1000 clearfix">
+				<div class="list">
+					<ul>
+						<li class="strong">使用帮助</li>
+						<li><a>新手指南</a></li>
+						<li><a>蜜粉值体系</a></li>
+						<li><a>蜜豆体系</a></li>
+						<li><a>正品承诺</a></li>
+					</ul>
+					<ul>
+						<li class="strong">支付方式</li>
+						<li><a>支付方式</a></li>
+						<li><a>支付流程</a></li>
+						<li><a>跨境进口税</a></li>
+					</ul>
+					<ul>
+						<li class="strong">配送方式</li>
+						<li><a>包邮政策</a></li>
+						<li><a>发货时间</a></li>
+						<li><a>配送区域</a></li>
+						<li><a>验货签收</a></li>
+					</ul>
+					<ul>
+						<li class="strong">售后服务</li>
+						<li><a>退货政策</a></li>
+						<li><a>退货流程</a></li>
+						<li><a>退款方式</a></li>
+					</ul>
+					<ul class="contact" style="width:200px">
+						<li class="strong">联系方式</li>
+						<li>总裁邮箱 ceo@mia.com</li>
+						<li>商务合作 bd@mia.com</li>
+						<li>媒体合作 pr@mia.com</li>
+						<li>采购中心 cx@mia.com</li>
+						<li>企业采购 qiye@mia.com</li>
+					</ul>
+				</div>
+				<div class="attention" style="margin-right: 40px;">
+					<ul class="scan">
+						<li class="strong">关注蜜芽</li>
+						<li class="">
+							<img src="img/footer-index_fd_sj.gif" />
+							<div class="right">
+								<a target="_blank"><img src="img/footer-index_fd_wb.gif" /></a>
+								<div>
+									<img class="right-down" src="img/footer-index_fd_wx.gif" />
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+				
+		<div class="footer-link">
+			<div class="w1000">
+				<p class="list">
+					<a href="#" target="_blank">关于蜜芽</a> | 
+					<a href="#" target="_blank">加入蜜芽</a> | 
+					<a href="#" target="_blank">商务合作</a> | 
+					<a href="#" target="_blank">帮助中心</a> | 
+					<a href="#" target="_blank">联系我们</a> | 
+					<a href="#" target="_blank">友情链接</a> | 
+					<a href="#" target="_blank">触屏版</a> | 
+					<a href="#" target="_blank">媒体报道</a> | 
+					<a href="#" target="_blank">妈米计划</a>
+				</p>				
+				京公网安备：11010502027270 | 营业执照：91110105585582599307U | 食品经营许可证：SP1101051410296669 | 京ICP证140430号 | 京ICP备14006215号
+				<br />
+				通过本网站直接或者间接地推销商品或者服务的商业宣传活动均属“广告”
+				<br />
+				Copyright © 2016 北京花旺在线商贸有限公司 Mia.com 保留一切权利。 客服热线： 400-789-2000
+				<br />
+				<p class="faith">
+					<a href="#" target="_blank"><img src="img/footer-bluelogo.gif" style="width: 105px;" /></a>
+					<a href="#" target="_blank"><img src="img/footer-cnnic.png" style="width: 80px;" /></a>
+					<a href="#" target="_blank"><img src="img/footer-chengxin.jpg" /></a>
+					<img src="img/footer-alipay.jpg" style="width: 105px;" />
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
 	</body>
 </html>
