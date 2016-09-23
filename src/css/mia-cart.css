@@ -1,0 +1,245 @@
+/* 蜜芽购物车页面专用样式 */
+
+/* common */
+body{
+	background: #fff;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* cart-header */
+.cart-header{
+	height: 168px;
+}
+
+/* cart */
+.cart .c-title{
+	padding: 10px 0;
+	margin: 0 10px;
+	border-bottom: 2px solid #eaeaea;
+	font-size: 24px;
+}
+.cart .c-title span{
+	border-bottom: 2px solid #fa4b9b;
+	padding: 0 10px 10px 0;
+	color: #333;
+	line-height: 30px;
+}
+.cart .c-menu{
+	padding: 15px;
+	overflow: hidden;
+}
+.cart .l{
+	float: left;
+}
+.cart .allm{
+	padding: 2px 0;
+	text-align: center;
+}
+.cart .cm0{
+	width: 87px;
+	margin-left: 20px;
+	text-align: left !important;
+	}
+.cart .cm0 label{
+	vertical-align: middle;
+}
+.cart .inputwarp{
+	float: left;
+	background: url(img/cart-ischeck.png) no-repeat;
+	width: 23px;
+	height: 20px;
+	display: inline-block;
+}
+.cart .ischeck{
+	background-position: 0 -178px;
+}
+.cart .c-check{
+	opacity: 0;
+	vertical-align: middle;
+	margin-bottom: 0;
+	margin-right: 5px;
+}
+.cart .cm1{
+	width: 280px;
+}
+.cart .cm2,.cm3,.cm4,.cm5,.cm6{
+	width: 113px;
+	border-left: 1px solid #ddd;
+}
+.cart .c-main{
+	margin: 0 15px;
+	border: 1px solid #ededed;
+}
+.cart .store{
+	padding: 14px 26px 14px 20px;
+	line-height: 20px;	
+	background: #fafafa;
+	overflow: hidden;
+}
+.cart .store-name{
+	float: left;
+	padding-bottom: 2px;
+	margin-left: 5px;
+	font-size: 18px;
+	color: #333;
+	font-family: 'Microsoft YaHei';
+	line-height: 20px;
+}
+.cart .items{
+	padding: 12px 0 12px 20px;
+	overflow: hidden;
+}
+.cart .it-check{
+	margin-top: 30px;
+	padding-right:20px;
+}
+.cart .it-img{
+	float: left;
+	width: 77px;
+	height: 77px;
+	border: 1px solid #ddd;
+	margin-right: 15px;
+}
+.cart .it-img img{
+	width: 77px;
+	vertical-align: top;
+}
+.cart .it-p{
+	width: 240px;
+	line-height: 16px;
+}
+.cart .it-p1{
+	height: 32px;
+	margin: 3px 0 6px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.cart .it-p2{
+	margin-top: 3px;
+	color: #999;
+}
+.cart .it-size{
+	color: #999;
+    word-break: break-all;
+}
+.cart .it-size,.it-price{
+    text-align: center;
+    margin-top: 3px;
+    width: 115px;
+}
+.cart .oldprice{
+	margin-top: 10px;
+	color: #999;
+	text-decoration: line-through;
+}
+.cart .it-num{
+	height: 22px;
+	border: 1px solid #e2e2e2;
+	width: 75px;
+	margin: 0 20px;
+	background-color: #fff;
+}
+.cart .it-num .minus,.cart .plus{
+	float: left;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	background: url(img/product-allicon.png);
+}
+.cart .it-num .minus{
+	border-right: 1px solid #e2e2e2;
+	background-position: 0 -153px;
+}
+.cart .it-num .plus{
+	border-left: 1px solid #e2e2e2;
+	background-position: -52px -153px;
+}
+.cart .it-num1{
+	float: left;
+	text-align: center;
+	width: 28px;
+	height: 20px;
+	overflow: hidden;
+	border: 0;
+}
+.cart .it-total{
+	width: 115px;
+	margin-top: 3px;
+	color: #ff69b4;
+	text-align: center;
+}
+.cart .it-del{
+	width: 48px;
+	margin-left: 30px;
+	text-align: center;
+}
+.cart .c-pay{
+	border: 1px solid #ddd;
+	border-right: none;
+	height: 58px;
+	margin: 50px 15px 20px;
+}
+.cart .c-pay .pay1{
+	position: absolute;
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 58px;
+}
+.cart .pay1 .inputwarp{
+	position: relative;
+	top: 16px;
+}
+.cart .pay1 label{
+	font-size: 14px;
+	font-weight: bold;
+	padding-right: 15px;
+	line-height: 58px;
+}
+.cart .pay1 a{
+	padding-left: 5px;
+}
+.cart .pay2{
+    display: inline-block;
+	margin-top: 21px;
+	margin-left: 490px;
+    text-align: left;
+}
+.cart .pay2 span{
+	color: #333;
+	font-weight: 700;
+	line-height: 18px;
+}
+.cart .pay2 span label{
+	font-size: 18px;
+	color: #fa4b9b;
+	font-weight: 400;
+	vertical-align: top;
+}
+.cart .pay3{
+	float: right;
+	text-align: center;
+	color: #fff;
+	background-color: #fa4b9b;
+	border: 1px solid #fa4b9b;
+	line-height: 56px;
+	margin-top: 0;
+	padding: 0 19px;
+	font-size: 19.5px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
