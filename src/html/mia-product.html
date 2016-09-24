@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>蜜芽-列表页</title>
+		<title>蜜芽-商品详情页</title>
 		<!--CSS样式-->
 		<link rel = "stylesheet" type = "text/css" href = "../css/reset.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/common.css"/>
@@ -11,6 +11,8 @@
 		<!--JS JQ 插件代码链接-->
 		<script src="../js/jquery-1.12.0.js"></script>
 		<script src='../js/jquery.elevateZoom.js'></script>
+		<!--这是cookie使用插件-->
+		<script src="../js/mycookie.js"></script>
 		
 		<!--当前网页专用JS代码-->
 		<script src="../js/mia-product.js"></script>
@@ -116,7 +118,7 @@
 							<img id="zoom-3" src="img/product-big4.jpg"  data-zoom-image="img/large/product-putbig4.jpg">
 						</div>
 						<div class="small">
-							<img src="img/product-big1.jpg" />
+							<img src="img/product-big1.jpg" id="oImg" />
 							<img src="img/product-big2.jpg" />
 							<img src="img/product-big3.jpg" />
 							<img src="img/product-big4.jpg" />
@@ -126,16 +128,14 @@
 						<div class="argument">
 							<div class="title">
 								<a target="_blank" href="">金雀</a>
-								<span>小兔杰瑞情商培育绘本系列第二辑全8册</span>
+								<span id="goodstitle">小兔杰瑞情商培育绘本系列第二辑全8册</span>
 							</div>
-							<div class="titleintro">
-								小兔杰瑞第2辑受到广大读者及幼儿园的广泛关注，被诸多幼儿园列为重点采购及推荐图书，2015年初更被北京电视台报道，堪称能与国外绘本比肩的中国原创绘本。                            
-							</div>
+							<div class="titleintro">小兔杰瑞第2辑受到广大读者及幼儿园的广泛关注，被诸多幼儿园列为重点采购及推荐图书，2015年初更被北京电视台报道，堪称能与国外绘本比肩的中国原创绘本。</div>
 							<div class="pricebox">
 								<span class="tit">售价</span>
 								<span class="new">
 									<i>¥</i>
-									<em>45.00</em>
+									<em id="new">45.00</em>
 								</span>
 								<span class="old">¥86.40</span>
 							</div>
@@ -160,11 +160,11 @@
 								</dd>
 							</dl>
 							<div class="clearfix">
-								<div class="add">
-									<a href="">加入购物车</a>
+								<div class="add" id="addGoods">
+									<a class="">加入购物车</a>
 								</div>
 								<div class="collect">
-									<a href="">
+									<a id="alove">
 										<i class="love"></i>
 										<span>收藏</span>
 									</a>
@@ -172,7 +172,7 @@
 							</div>
 							<dl class="code">
 								<dt>编码：</dt>
-								<dd>1206297</dd>
+								<dd id="oCode">1206297</dd>
 							</dl>
 							<div class="fahuo">此商品由金雀图书专营店进行发货</div>
 							<div class="tips clearfix">

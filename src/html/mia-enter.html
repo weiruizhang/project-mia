@@ -2,14 +2,20 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>蜜芽-注册页面</title>
+		<title>蜜芽-登录页面</title>
 		<!--CSS样式-->
 		<link rel = "stylesheet" type = "text/css" href = "../css/reset.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/common.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/mia-register.css"/>
 		
 		<!--JS JQ 插件代码链接-->
-		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/jquery-1.12.0.js"></script>			
+		<!--引用cookie的JQ文件-->
+		<!--表单验证插件-->
+		<script src="../js/mycookie.js"></script>
+		<!--当前页面的JS代码块-->
+		<script src="../js/mia-enter.js"></script>
+		
 		
 	</head>
 	<body class="change">
@@ -39,14 +45,14 @@
 						<div class="inputGroup">
 							<div class="inner">
 								<div class="pass-icon"></div>
-								<input id="login-password" class="input" placeholder="密码" name="password" type="text" />
+								<input id="login-password" class="input" placeholder="密码" name="password" type="password" />
 							</div>
 							<p></p>
 						</div>
 						<div class="inputcheck clearfix">
 							<div class="auto-check">
 								<label for="auto-enter">
-									<input id="auto-enter" class="auto-enter" name="auto-enter" type="checkbox" checked="" value="" />自动登录
+									<input id="auto-enter" class="auto-enter" name="auto-enter" type="checkbox" checked="checked" value="" />自动登录
 								</label>
 							</div>
 							<a href="">忘记密码？</a>
@@ -71,7 +77,7 @@
 							<p></p>
 						</div>
 						<p class="registerBtn">
-							<a href="" id="register-submit">登录</a>
+							<a id="register-submit">登录</a>
 						</p>
 					</form>
 					<div class="weixin-enter">

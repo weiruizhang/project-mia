@@ -7,9 +7,23 @@
 		<link rel = "stylesheet" type = "text/css" href = "../css/reset.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/common.css"/>
 		<link rel = "stylesheet" type = "text/css" href = "../css/mia-register.css"/>
-		
+		<!--当前页面CSS样式-->					
+		<style type="text/css">	
+			#errormsg{
+				position: absolute;
+				top: 40px;
+				left: 0px;
+				z-index: 30;
+			}	
+		</style>		
 		<!--JS JQ 插件代码链接-->
 		<script src="../js/jquery-1.12.0.js"></script>
+		<!--引用cookie的JQ文件-->
+		<script src="../js/mycookie.js"></script>
+		<!--<script src="../js/jquery.cookie.js"></script>-->
+		<script src="../js/mia-register.js"></script>
+		<!--表单验证插件-->
+		<script src="../js/plug-from.js"></script>
 		
 	</head>
 	<body class="change">
@@ -27,11 +41,12 @@
 							<a href="">登录</a>
 						</span>
 					</div>
-					<form action="" class="loginform" method="post">
+										
+					<form action="" class="loginform" id="loginform" method="post">
 						<div class="inputGroup">
 							<div class="inner">
 								<div class="mobile-icon"></div>
-								<input id="login-username" class="input" placeholder="手机号码" name="username" type="text" />
+								<input id="login-username" class="input" placeholder="手机号码" name="username" check="required phone" type="text" />
 							</div>
 							<p style="display: none;"></p>
 						</div>
@@ -41,7 +56,7 @@
 									<input id="autocode" class="input" placeholder="输入验证码" type="text" />
 								</div>
 								<img src="img/member-authcode.png" alt="" />
-								<a href="">看不清</a>
+								<a href="#">看不清</a>
 							</div>
 							<p></p>
 						</div>
@@ -57,17 +72,18 @@
 						<div class="inputGroup">
 							<div class="inner">
 								<div class="pass-icon"></div>
-								<input id="login-password" class="input" placeholder="密码" name="password" type="text" />
+								<input id="login-password" class="input" placeholder="密码" name="pw1" check="required pw1" type="password" />
 							</div>
 							<p></p>
 						</div>
 						<div class="inputGroup">
 							<div class="inner">
 								<div class="pass-icon"></div>
-								<input id="confirm-password" class="input" placeholder="确认密码" name="confirm-password" type="text" />
+								<input id="confirm-password" class="input" placeholder="确认密码" name="pw2" check="required pw2" type="text" />
 							</div>
 							<p></p>
 						</div>
+												
 						<div class="inputGroup" style="height:30px;">
 							<div class="isread">
 								<input id="isagree" checked="" name="isagree" type="checkbox" />
@@ -77,7 +93,7 @@
 							<p></p>
 						</div>
 						<p class="registerBtn">
-							<a href="" id="register-submit">注册</a>
+							<a id="register-submit">注册</a>
 						</p>
 					</form>
 				</div>

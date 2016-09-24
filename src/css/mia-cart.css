@@ -145,7 +145,7 @@ body{
 .cart .it-num .minus,.cart .plus{
 	float: left;
 	display: inline-block;
-	width: 22px;
+	width: 21px;
 	height: 22px;
 	cursor: pointer;
 	background: url(img/product-allicon.png);
